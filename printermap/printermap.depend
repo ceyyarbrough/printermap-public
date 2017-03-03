@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1488568727 source:c:\users\user\desktop\printermap\printermap\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1488475411 source:c:\users\user\desktop\printermap\printermap\src\hyperlink.cpp
+

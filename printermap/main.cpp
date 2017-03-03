@@ -19,16 +19,16 @@ int linkName;
 
 //function to store and return printer network address
 string getPrinterAddress(){
-    cout<<"Enter Server Name (EX: DENDIV)"<<endl;
+    cout<<"Enter Server Name (EX: ******)"<<endl;
     cin>> serverName;
-    cout<<"Enter Printer Name (EX: DFDB)"<<endl;
+    cout<<"Enter Printer Name (EX: *******)"<<endl;
     cin>> printerName;
     //error null input
     if(serverName == "" || printerName == ""){
         cout<<"Error. Re-open program and try again."<<endl;
         return 0;//end program
     } else {
-        printerAddress = "\\\\" + serverName + "-fs-01\\P-" + printerName;//printeraddress stored to return
+        printerAddress = ;//network address here
         return printerAddress;
     }
 }
@@ -64,6 +64,4 @@ int main(){
     return 0;
 
 }
-
-
 
